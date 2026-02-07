@@ -10,10 +10,18 @@ fn factorial(num: u64) -> u64 {
     // - additional variables
     // For an extra challenge, don't use:
     // - recursion
+    let mut ser =(1..=num);
+    ser.product()
+
+    
 }
 
 fn main() {
     // You can optionally experiment here.
+    // let v1=vec![1,2,3];
+    // let v1_iter=v1.iter().map(|x| x+1);
+
+    // let v2=v1_iter.collect();
 }
 
 #[cfg(test)]
